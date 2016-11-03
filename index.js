@@ -5,7 +5,7 @@ function takeANumber(arr, name){
 }
 
 function nowServing(arr){
-  if (arr.length == 0){
+  if (arr.length === 0){
     return "There is nobody waiting to be served!"
   } else {
     return `Currently serving ${arr.shift()}.`
@@ -13,7 +13,7 @@ function nowServing(arr){
 }
 
 function currentLine(arr){
-  if (arr.length == 0){
+  if (arr.length === 0){
     return "The line is currently empty."
   } else {
     var str = "The line is currently:"
